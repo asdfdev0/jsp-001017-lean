@@ -39,10 +39,10 @@ theorem coordinateOnePath_visible (n : ℕ) : Visible (coordinateOnePath n) := b
 theorem coordinateOnePath_adj (n : ℕ) :
     Adj (coordinateOnePath n) (coordinateOnePath (n + 1)) := by
   simp [Adj, coordinateOnePath]
-  omega
 
 theorem coordinateOnePath_avoids (n : ℕ) : AvoidsPrimePrime (coordinateOnePath n) := by
-  simp [AvoidsPrimePrime, coordinateOnePath]
+  intro h
+  exact (by norm_num : ¬ Nat.Prime 1) h.1
 
 /-- Complete solution of the literal published JSP-001017 wording. -/
 theorem jsp_001017_literal : HasLiteralInfinitePath := by
