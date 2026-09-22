@@ -2,7 +2,7 @@
   "version": "1.2.0",
   "packagesDir": ".lake/packages",
   "packages": [
-    {"url":"https://github.com/leanprover-community/mathlib4.git","type":"git","subDir":null,"scope":"","rev":"db584cd6d46c92f209a44c0f1c829460d327499d","name":"mathlib","manifestFile":"lake-manifest.json","inputRev":"db584cd6d46c92f209a44c0f1c829460d327499d","inherited":false,"configFile":"lakefile.toml"},
+    {"url":"https://github.com/leanprover-community/mathlib4.git","type":"git","subDir":null,"scope":"","rev":"db584cd6d46c92f209a44c0f1c829460d327499d","name":"mathlib","manifestFile":"lake-manifest.json","inputRev":"db584cd6d46c92f209a44c0f1c829460d327499d","inherited":false,"configFile":"lakefile.lean"},
     {"url":"https://github.com/leanprover-community/plausible","type":"git","subDir":null,"scope":"leanprover-community","rev":"b7eb3304aeae834b12dda98993a37f6a41f6f0bb","name":"plausible","manifestFile":"lake-manifest.json","inputRev":"main","inherited":true,"configFile":"lakefile.toml"},
     {"url":"https://github.com/leanprover-community/LeanSearchClient","type":"git","subDir":null,"scope":"leanprover-community","rev":"5f4d51b81cbd3f6b32b156bfad9056621a040404","name":"LeanSearchClient","manifestFile":"lake-manifest.json","inputRev":"main","inherited":true,"configFile":"lakefile.toml"},
     {"url":"https://github.com/leanprover-community/import-graph","type":"git","subDir":null,"scope":"leanprover-community","rev":"16f02aa7642864af59f1ff0e384a015994db9118","name":"importGraph","manifestFile":"lake-manifest.json","inputRev":"main","inherited":true,"configFile":"lakefile.toml"},
